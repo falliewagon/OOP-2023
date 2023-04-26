@@ -56,13 +56,30 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new YASC());
     }
+
+	public static void shapetest()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Shapetest());
+    }
+
+	public static void maptest()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new maptest());
+    }
 	
 	public static void main(String[] args)
 	{
 		System.out.println("Hello world");
 		
 
-		yasc();
+		//loops();
+		//shapetest();
+		//starMap();
+		//maptest();
+		//life();
+		helloProcessing();
 	}
 	
 }
